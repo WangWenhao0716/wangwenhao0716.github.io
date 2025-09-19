@@ -233,7 +233,12 @@
               <p> In this survey, we provide the first comprehensive review of replication in visual diffusion models, marking a novel contribution to the field by systematically categorizing the existing studies into unveiling, understanding, and mitigating this phenomenon.  </p>
             </td>
           </tr>
-          
+
+    <tr>
+  <td colspan="2" style="padding:20px;vertical-align:middle">
+    <p><font color="black"><strong>Image Copy Detection.</strong> <em>Designing image copy detection systems that can efficiently adapt to novel tampering patterns and avoid interference from hard negatives.</em></font></p>
+  </td>
+</tr>
           
 
           <tr>
@@ -260,6 +265,68 @@
               <p> This paper proposes a specific open-world visual recognition task, i.e. Pattern-Expandable Image Copy Detection (PE-ICD). To lay the foundation for PE-ICD research, we propose Pattern Stripping (P-Strip), which separates the tamper patterns from a query by decomposing the query feature into a content feature and multiple pattern features. </p>
             </td>
           </tr>
+
+
+    <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='pics/ASL.png' width=200; height="auto">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2205.12358">
+                <font color=#1772d0>  <papertitle>A Benchmark and Asymmetrical-Similarity Learning for Practical Image Copy Detection</papertitle></font>
+              </a>
+              <br>
+              <strong>Wenhao Wang</strong>,
+              Yifan Sun,
+              Yi Yang
+              <br>
+              <em>AAAI</em>, 2023 <font color="red"><strong>(Oral)</strong></font>
+              <br>
+              <a href="https://arxiv.org/abs/2205.12358">arXiv</a> /
+              <a href="https://github.com/WangWenhao0716/ASL">Dataset&Code</a> /
+              <a href="bibs/asl.bib">bibtex</a> /
+              <a href="pics/AAAI2023_poster_732.pdf">poster</a>
+              <p></p>
+              <p>We contribute a new ICD dataset, i.e., Negative-Distractor for Edited Copy (NDEC), with emphasis on the seldom-noticed hard negative problem. We propose a novel Asymmetric-Similarity Learning (ASL) method for ICD. </p>
+            </td>
+          </tr>
+
+     <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='pics/AnyPattern.jpg' width=200; height="auto">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://anypattern.github.io/">
+                <font color=#1772d0>  <papertitle>AnyPattern: Towards In-context Image Copy Detection</papertitle></font>
+              </a>
+              <br>
+              <strong>Wenhao Wang</strong>,
+              Yifan Sun,
+              Zhentao Tan,
+              Yi Yang
+              <br>
+              <em>Arxiv</em>, 2024
+              <br>
+              <a href="https://arxiv.org/abs/2404.13788">arXiv</a> /
+              <a href="https://github.com/WangWenhao0716/AnyPattern">Code (ICD)</a> /
+              <a href="https://github.com/WangWenhao0716/AnyPatternStyle">Code (Style)</a> /
+              <a href="https://huggingface.co/datasets/WenhaoWang/AnyPattern">Data</a>  /
+              <a href="bibs/anypattern.bib">bibtex</a> 
+              <p></p>
+              <p> This paper explores in-context learning for image copy detection (ICD), i.e., prompting an ICD model to identify replicated images with new tampering patterns without the need for additional training. To accommodate the “seen → unseen” generalization scenario, we construct the first large-scale pattern dataset named AnyPattern, which has the largest number of tamper patterns (90 for training and 10 for testing) among all the existing ones. </p>
+            </td>
+          </tr>
+
+    <tr>
+  <td colspan="2" style="padding:20px;vertical-align:middle">
+    <p><font color="black"><strong>Fundamental Computer Vision.</strong> <em>Conducting research on fundamental computer vision tasks, such as image classification, image retrieval, and object detection.</em></font></p>
+  </td>
+</tr>
+    
           
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -288,31 +355,7 @@
             </td>
           </tr>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='pics/ASL.png' width=200; height="auto">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2205.12358">
-                <font color=#1772d0>  <papertitle>A Benchmark and Asymmetrical-Similarity Learning for Practical Image Copy Detection</papertitle></font>
-              </a>
-              <br>
-              <strong>Wenhao Wang</strong>,
-              Yifan Sun,
-              Yi Yang
-              <br>
-              <em>AAAI</em>, 2023 <font color="red"><strong>(Oral)</strong></font>
-              <br>
-              <a href="https://arxiv.org/abs/2205.12358">arXiv</a> /
-              <a href="https://github.com/WangWenhao0716/ASL">Dataset&Code</a> /
-              <a href="bibs/asl.bib">bibtex</a> /
-              <a href="pics/AAAI2023_poster_732.pdf">poster</a>
-              <p></p>
-              <p>We contribute a new ICD dataset, i.e., Negative-Distractor for Edited Copy (NDEC), with emphasis on the seldom-noticed hard negative problem. We propose a novel Asymmetric-Similarity Learning (ASL) method for ICD. </p>
-            </td>
-          </tr>
+          
           
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -339,66 +382,6 @@
               <p>This paper proposes a novel light-weight module, the Attentive WaveBlock (AWB), which can be integrated into the dual networks of mutual learning to enhance the complementarity.</p>
             </td>
           </tr>
-
-    
-          
-           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='pics/AnyPattern.jpg' width=200; height="auto">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://anypattern.github.io/">
-                <font color=#1772d0>  <papertitle>AnyPattern: Towards In-context Image Copy Detection</papertitle></font>
-              </a>
-              <br>
-              <strong>Wenhao Wang</strong>,
-              Yifan Sun,
-              Zhentao Tan,
-              Yi Yang
-              <br>
-              <em>Arxiv</em>, 2024
-              <br>
-              <a href="https://arxiv.org/abs/2404.13788">arXiv</a> /
-              <a href="https://github.com/WangWenhao0716/AnyPattern">Code (ICD)</a> /
-              <a href="https://github.com/WangWenhao0716/AnyPatternStyle">Code (Style)</a> /
-              <a href="https://huggingface.co/datasets/WenhaoWang/AnyPattern">Data</a>  /
-              <a href="bibs/anypattern.bib">bibtex</a> 
-              <p></p>
-              <p> This paper explores in-context learning for image copy detection (ICD), i.e., prompting an ICD model to identify replicated images with new tampering patterns without the need for additional training. To accommodate the “seen → unseen” generalization scenario, we construct the first large-scale pattern dataset named AnyPattern, which has the largest number of tamper patterns (90 for training and 10 for testing) among all the existing ones. </p>
-            </td>
-          </tr>
-          
-          
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='pics/anchor_udf.png' width=200; height="auto">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Learning_Anchored_Unsigned_Distance_Functions_With_Gradient_Direction_Alignment_for_ICCV_2021_paper.pdf">
-                <font color=#1772d0>  <papertitle>Learning Anchored Unsigned Distance Functions with Gradient Direction Alignment for
-                  Single-view Garment Reconstruction</papertitle></font>
-              </a>
-              <br>
-              Fang Zhao,
-              <strong>Wenhao Wang</strong>,
-              Shengcai Liao,
-              Ling Shao
-              <br>
-              <em>ICCV</em>, 2021 <font color="red"><strong>(Oral)</strong></font>
-              <br>
-              <a href="https://arxiv.org/abs/2108.08478">arXiv</a> /
-              <a href="https://github.com/zhaofang0627/AnchorUDF">Code</a> /
-              <a href="bibs/anchor_udf.bib">bibtex</a>
-              <p></p>
-              <p>We propose a novel learnable Anchored Unsigned Distance Function (AnchorUDF)
-                representation for 3D garment reconstruction from a single image.</p>
-            </td>
-          </tr>
-
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
